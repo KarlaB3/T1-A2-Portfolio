@@ -1,0 +1,34 @@
+/*  styling goes here */
+
+/*  home page introduction */
+
+.introduction {
+    background-color: 115847;
+}
+
+
+h1 {
+    color: #115847
+    }
+
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+    main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+}
