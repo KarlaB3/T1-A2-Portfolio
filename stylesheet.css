@@ -1,31 +1,181 @@
 /*  styling goes here */
 
-/*  home page introduction */
-
-.introduction {
-    background-color: 115847;
+/*  styling of text elements */
+body {
+    font-family: "Poppins";
 }
 
-
 h1 {
-    color: #115847
-    }
+    color: #115847;
+    font-size: 3em;
+    margin-top: 0.09em;
+    margin-bottom: 0.09em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-header {
+h2 {
+    color: #115847;
+    font-size: 2.5em;
+    margin-top: 0.09em;
+    margin-bottom: 0.09em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h3 {
+    color:#22aa89; 
+    font-size: 1.5em;
+    margin-top: 0.3em;
+    margin-bottom: 0.1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*  styling of button elements */
+.button {
     background-color: white;
+    color:#115847;
+    font-size: 1.3em;
+    padding: 0.5em 0.8em;
+    border-radius: 1.2em;
+    border: 0.2em solid #115847;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #22aa89;
+    color: white;
+}
+
+/*  styling of images */
+.one-image {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.two-image {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+
+/*  styling of header and footer */
+header {
+    background-color: #115847;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 3em;
+    padding-right: 3em;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
 
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-container {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav-container a:hover {
+    color: #22aa89;
 }
 
 footer {
+    background-color: #115847;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 3em;
+    padding-right: 3em;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-@media screen and (min-width: 600px) {
+.footer-container {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fa-solid {
+    color: white;
+    font-size: 1.5em;
+}
+
+.fa-solid:hover { 
+    color: #22aa89; 
+}
+
+.fa-brands {
+    color: white;
+    font-size: 1.5em;
+}
+
+.fa-brands:hover { 
+    color: #22aa89; 
+}
+
+
+/*  styling of body styles */
+.primary-copy {
+    width: 50%;
+    padding-top: 1.8em;
+    padding-bottom: 1.8em;
+    padding-left: 6em;
+    padding-right: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*  styling for responsiveness */
+.responsive {
+    width: 60%;
+    height: auto;
+}
+
+
+/*  styling for desktop */
+@media screen and (min-width: 1025px) {
     main {
     display: flex;
     flex-wrap: wrap;

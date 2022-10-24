@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <script src="https://kit.fontawesome.com/7d7f2c370e.js" crossorigin="anonymous"></script>
     <title>Portfolio Website</title>
 </head>
 <body>
-    <header class="header">
-      <img src="./images/LOGO.png" alt="logo">
+    <header>
+      <div class="logo">
+      <img src="./images/logo.png" alt="logo" class="responsive">
+      <a href="./index.html">
+      </a>
+      </div>
       <nav class="nav-container">   
         <a href="./pages/about.html">About</a>
         <a href="./pages/work.html">Work</a>
@@ -18,22 +24,20 @@
     </header>
 
 <main>
-  <div-style="background-color:115847></background-color:115847> </div-style>
-  <div class="introduction"></div>
-  <img src="./images/kb-hero.png" alt="About Karla Bucoy">
+  <div class="primary-copy">
+  <img class= one-image src="./images/kb-hero.png" alt="About Karla Bucoy">
   <h3>Hello</h3>
   <h1>I'm Karla Bucoy</h1>
-  <p>Former marketer and aspiring full stack developer. Currently completing the Coder Academy Web Development Bootcamp
-  </p>
-
-
+  <p>Former marketer and aspiring full stack developer. Web Development Bootcamp student at Coder Academy.</p>
+  <a class="button" href=".pages/about.html">ABOUT</a>
+  </div>
 </main>
 
     <footer class="footer">
       <div class="footer-container">   
-        <a href="mailto:k.bucoy@gmail.com"><img src="./images/mail50.png" alt="Email icon"></a>
-        <a href="https://github.com/KarlaB3"><img src="./images/github50.png" alt="GitHub icon"></a>
-        <a href="https://twitter.com/KarlaB_3"><img src="./images/twitter50.png" alt="Twitter icon"></a>
+        <a href="mailto:k.bucoy@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://github.com/KarlaB3"><i class="fa-brands fa-github"></i></a>
+        <a href="https://twitter.com/KarlaB_3"><i class="fa-brands fa-twitter"></i></a>
       </div>
     </footer>
  </body>
