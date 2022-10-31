@@ -69,7 +69,16 @@ footer {
 }
 
 /*  styling of hero section */
-.hero {
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0.5em 2em 0.5em 2em;
+}
+
+/*  styling of secondary hero section */
+.secondary-hero-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,7 +87,7 @@ footer {
 }
 
 /*  styling of information section */
-.information {
+.information-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,7 +119,7 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 2em;
+    padding: 1.5em;
 }
 
 /*  styling of text elements */
@@ -167,42 +176,122 @@ a {
 }
 
 /*  styling of images */
-img {
-    margin: 0.5em 0.5em;
+.hero-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.9em;
+}
+
+.about-img-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.9em;
+}
+
+.about-img-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.9em;
+}
+
+.blog-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.9em;
 }
 
 /*  styling for desktop */
-@media screen and (min-width: 1025px) {
-    .hero {
-        display: block;
-        width: 100%;
-        justify-content: left;
+@media screen and (min-width: 1200px) {
+    .hero-img {
+        height: 100vh;
+        width: 40%;
+        float: left;
+        padding-top: 18em;
     }
 
-    .hero img {
-        max-width: 20rem;
-        border-radius: 50%;
+    .hero-section {
+      height: 100vh;
+      width: 60%;
+      padding-top: 18em;
+    }
+
+    .about-img-1 {
+        width: 50vw;
         float: left;
-        padding: 0.8rem 0.8rem 0.8rem 1.2rem;
-        margin-right: 0.7rem;
-        width: 60%;
+        margin-right: 0;
+    }
+    
+    .about-img-2 {
+        width: 50vw;
+        float: right;
+        margin-left: 0;
+    }
+
+    .card {
+        height: 400px;
     }
 
     h1 {
-        color: #008081;
-        font-size: 4em;
+        font-size: 3.5em;
         margin: 1 1;
     }
     
     h2 {
-        color:#00b5b5; 
-        font-size: 2em;
+        font-size: 2.2em;
         margin: 1 1;
     }
     
     h3 {
-        color:#00b5b5; 
-        font-size: 2em;
+        font-size: 1.5em;
+        margin: 1 1;
+    }
+    
+    p {
+        font-size: 1.2em;
+        margin: 1 1;
+    }
+    
+    p.small {
+        font-size: 0.9em;
+    }
+    
+    ul {
+        font-size: 1em;
+    }
+    
+    a {
+        font-size: 1em;
+    }
+
+    .button {
+        font-size: 1.5em;
+        margin: 1 1;
+    }
+    
+}
+
+/*  styling for tablet */
+@media screen and (min-width: 768px) and (max-width:1199px) {
+    .hero-img {
+        padding-top: 5em;
+    }
+
+    h1 {
+        font-size: 3.2em;
+        margin: 1 1;
+    }
+    
+    h2 {
+        font-size: 2.1em;
+        margin: 1 1;
+    }
+    
+    h3 {
+        font-size: 1.2em;
         margin: 1 1;
     }
     
@@ -212,47 +301,19 @@ img {
     }
     
     p.small {
-        font-size: 0.7em;
-        margin: 0.2em 0;
+        font-size: 0.8em;
     }
     
     ul {
-        font-size: 0.9em;
+        font-size: 1em;
     }
     
     a {
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
     .button {
-        background-color: white;
-        color:#008081;
         font-size: 1.5em;
-        padding: 0.5em 0.8em;
-        margin: 1 1 1 1
-        border: 0.2em solid #008081;
-        text-decoration: none;
     }
     
-    .button:hover {
-        background-color: #00b5b5;
-        color: white;
-    }
-    
-
-/*  styling for tablet */
-@media screen and (min-width: 768px) {
-    main {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    }
 }
-
-.blog-container {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;   
-}
-
