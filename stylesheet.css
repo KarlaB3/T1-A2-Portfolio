@@ -23,9 +23,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
+    padding: 3em 2em 2em 2em
 }
 
+/*  styling of header nav container*/
 .nav-container a {
     text-decoration: none;
     color: white;
@@ -43,7 +44,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
+    padding: 2em 2em 2.5em 2em;
     width: 100%;
 }
 
@@ -52,6 +53,7 @@ footer {
     font-size: 0.8em;
 }
 
+/*  styling of footer nav container */
 .footer-container a {
     text-decoration: none;
     color: white;
@@ -59,6 +61,7 @@ footer {
     margin: 0 1em;
 }
 
+/*  styling of font awesome elements */
 .fa-brands {
     color: white;
     font-size: 1.5em;
@@ -83,7 +86,7 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 0.5em 2em 0.5em 2em;
+    padding: 2em 2em 0.5em 2em;
 }
 
 /*  styling of information section */
@@ -102,7 +105,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0.5em 2em 0.5em 2em;
+    padding: 2em 2em 0.5em 2em;
 }
 
 .card {
@@ -119,7 +122,16 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 1.5em;
+    padding: 2em 5em 0.5em 5em;
+}
+
+/*  styling of contact section */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10em 5em 10em 5em;
 }
 
 /*  styling of text elements */
@@ -180,7 +192,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0.9em;
+    padding-top: 5em;
 }
 
 .about-img-1 {
@@ -204,8 +216,15 @@ a {
     padding: 0.9em;
 }
 
+figcaption {
+    font-size: 0.6em;
+    padding: 0.8em;
+}
+
 /*  styling for desktop */
 @media screen and (min-width: 1200px) {
+
+    /*  styling of home page for left to right reading */
     .hero-img {
         height: 100vh;
         width: 40%;
@@ -214,11 +233,12 @@ a {
     }
 
     .hero-section {
-      height: 100vh;
-      width: 60%;
-      padding-top: 18em;
+        height: 100vh;
+        width: 60%;
+        padding-top: 18em;
     }
 
+    /*  styling of about page images */
     .about-img-1 {
         width: 50vw;
         float: left;
@@ -231,10 +251,12 @@ a {
         margin-left: 0;
     }
 
+    /*  styling of blog page card desktop sizing */
     .card {
         height: 400px;
     }
 
+    /*  styling of text elements for desktop */
     h1 {
         font-size: 3.5em;
         margin: 1 1;
@@ -267,6 +289,7 @@ a {
         font-size: 1em;
     }
 
+     /*  styling of button elements for desktop */
     .button {
         font-size: 1.5em;
         margin: 1 1;
@@ -280,6 +303,7 @@ a {
         padding-top: 5em;
     }
 
+     /*  styling of text elements for tablet */
     h1 {
         font-size: 3.2em;
         margin: 1 1;
