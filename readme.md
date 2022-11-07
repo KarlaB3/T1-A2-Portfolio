@@ -3,13 +3,13 @@
 The purpose of this portfolio website is to showcase my work experience, professional knowledge and personal interests to prospective employers and freelance clients. 
 
 ## Website Link
-View the portfolio website here: 
+View the portfolio website here: <https://karla-bucoy-portfolio.netlify.app/>
 
 ## GitHub Project Link
 View the GitHub repo here: <https://github.com/KarlaB3/T1-A2-Portfolio>
 
 ## Presentation Video
-View the presentation video here: 
+View the presentation video here: <https://vimeo.com/768025343/3e9e1df24e>
 
 ## Tech Stack
 * Vanilla HTML & CSS source code, and markdown ReadMe file written in Visual Studio Code.
@@ -18,7 +18,7 @@ View the presentation video here:
 
 # About The Project
 ## Functionality and Design
-The website is designed to be simple, navigable, responsive and accessible.
+The website is designed and built to be simple, navigable, responsive and accessible.
 
 This is achieved through:
 
@@ -48,7 +48,7 @@ The Blog page lists a teaser of individual blog posts, then users can click into
 Note my LinkedIn account is currently in hibernation with the change in career path. It will be updated and reactivated in 2023.
 
 # References
-1. Unsplash images for blog posts: <https://unsplash.com/>
-2. Device mock up templates: <https://www.webmobilefirst.com/>
-3. Colour symbolism and meaning: <https://www.canva.com/colors/color-meanings/teal/>
+1. Unsplash images for blog posts: <https://unsplash.com>
+2. Device mock up templates: <https://www.webmobilefirst.com>
+3. Colour symbolism and meaning: <https://www.canva.com/colors/color-meanings/teal>
 4. Visual hierarchy information: <https://99designs.com.au/blog/tips/visual-hierarchy-landing-page-designs>
